@@ -85,9 +85,11 @@ body {
 }
 
 .card {
+    justify-content: center;
+    align-items: center;
     text-align: center;
     margin: 30px;
-    height: 420px;
+    height: 320px;
     background-color: rgba(255, 255, 255, 1);
 }
 
@@ -99,10 +101,11 @@ body {
 .card p span {
     font-size: 20px;
     font-weight: 600;
-    color: chartreuse;
+    color: rgb(32, 160, 55);
 }
 
 .card img {
+    width: 150px;
     margin: 20px 0px;
     padding: 0;
     border-radius: 2px;
