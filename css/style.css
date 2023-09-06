@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Barlow Semi Condensed';
+    src: url(../fonts/BarlowSemiCondensed-Light.ttf);
+}
+
+body {
+    background-image: url(../img/fondo2.jpg);
+}
+
+.navbar {
+    font-family: 'Lucida Sans';
+    font-size: 70px;
+    font-weight: 500;
+    background-color: rgb(203, 168, 151);
+    color: #fff;
+    box-shadow: 0px 3px rgba(0, 0, 0, .5);
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 40px;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.s2 h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #F7B813;
+    margin: 0px 20px;
+}
+
+.s2 h2 {
+    margin: 0px 20px;
+    font-size: 50px;
+    font-weight: 900;
+    font-style: italic;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    white-space: nowrap;
+}
+
+.s2 h2 i {
+    font-size: 50px;
+    padding: 0px;
+    color: rgb(227, 73, 73);
+}
+
+.carousel-inner {
+    background-image: url(../img/fondomadera.png);
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.carousel-inner img {
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+}
+
+@keyframes img-movement {
+    0% {
+        scale: 1.02;
+    }
+    100% {
+        scale: 1.05;
+    }
+}
+
+.carousel-inner img:hover {
+    animation-name: img-movement;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.card {
+    text-align: center;
+    margin: 30px;
+    height: 420px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.card p {
+    font-size: 22px;
+    color: #000;
+}
+
+.card p span {
+    font-size: 20px;
+    font-weight: 600;
+    color: chartreuse;
+}
+
+.card img {
+    margin: 20px 0px;
+    padding: 0;
+    border-radius: 2px;
+}
+
+.card img:hover {
+    animation-name: img-movement;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.filtro {
+    display: none;
+}
